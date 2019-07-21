@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43960" started-at="2019-07-20T10:54:10Z" finished-at="2019-07-20T10:54:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43960" started-at="2019-07-20T10:54:10Z" finished-at="2019-07-20T10:54:54Z">
+      <class name="Discovery.Discovery.FavVideo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="setup" is-config="true" duration-ms="13772" started-at="2019-07-20T16:24:10Z" finished-at="2019-07-20T16:24:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2019-07-20T16:24:24Z" finished-at="2019-07-20T16:24:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Discovery.Discovery.FavVideo.AddTwoVideos()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddTwoVideos()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="AddTwoVideos" duration-ms="27918" started-at="2019-07-20T16:24:24Z" finished-at="2019-07-20T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTwoVideos -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-20T16:24:52Z" finished-at="2019-07-20T16:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddTwoVideos status=SUCCESS method=FavVideo.AddTwoVideos()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="endtest" is-config="true" duration-ms="437" started-at="2019-07-20T16:24:52Z" finished-at="2019-07-20T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="endTest" is-config="true" duration-ms="1794" started-at="2019-07-20T16:24:52Z" finished-at="2019-07-20T16:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Discovery.Discovery.FavVideo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
